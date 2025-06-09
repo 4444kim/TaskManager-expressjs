@@ -1,0 +1,29 @@
+# Node modules
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+logs/
+*.log
+
+# Env files
+.env*
+!.env.example
+
+# OS / Editor junk
+.DS_Store
+.vscode/
+.idea/
+
+# Coverage (если используешь тестирование)
+coverage/
+
+# MongoDB dump files (если есть)
+dump/
+
+# Build artifacts (если есть сборка)
+dist/
+build/
